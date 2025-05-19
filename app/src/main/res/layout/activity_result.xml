@@ -1,0 +1,100 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_result"
+    android:padding="32dp"
+    tools:context=".ResultActivity">
+
+    <!-- Result Illustration -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/resultAnimation"
+        android:layout_width="400dp"
+        android:layout_height="160dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:lottie_rawRes="@raw/three"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"/>
+
+    <!-- Score Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/scoreCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardElevation="8dp"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.FlashcardQuiz.Large"
+        app:layout_constraintTop_toBottomOf="@id/resultAnimation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Score"
+                android:textSize="18sp"
+                android:textColor="?attr/colorOnSurface"
+                android:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:id="@+id/scoreValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="8/10"
+                android:textSize="24sp"
+                android:textColor="?attr/colorPrimary"
+                android:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:id="@+id/feedbackTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Great job! You know your history well."
+                android:textSize="14sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textAlignment="center"
+                android:lineSpacingExtra="4sp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Action Buttons -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/reviewButton"
+        style="@style/Widget.FlashcardQuiz.Button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="Review Answers"
+        app:iconTint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/scoreCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.8"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/exitButton"
+        style="@style/Widget.FlashcardQuiz.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Exit"
+        app:layout_constraintTop_toBottomOf="@id/reviewButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

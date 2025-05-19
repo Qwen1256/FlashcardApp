@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_500">#2196F3</color>       <!-- Blue -->
+    <color name="primary_600">#1976D2</color>       <!-- Darker Blue -->
+    <color name="secondary_500">#03A9F4</color>     <!-- Light Blue -->
+
+    <!-- Text Colors -->
+    <color name="primary_text">#212121</color>      <!-- Almost Black -->
+    <color name="secondary_text">#757575</color>    <!-- Medium Gray -->
+
+    <!-- Backgrounds -->
+    <color name="bg_light">#FFFFFF</color>          <!-- White -->
+    <color name="bg_dark">#263238</color>           <!-- Dark Blue-Gray -->
+
+    <!-- Accents -->
+    <color name="accent_green">#00B894</color>      <!-- Success Green -->
+    <color name="accent_red">#D63031</color>        <!-- Error Red -->
+
+    <!-- Special Colors -->
+    <color name="ripple_white">#66FFFFFF</color>    <!-- Semi-transparent white -->
+    <color name="button_shadow">#33000000</color>   <!-- Black with 20% opacity -->
+
+    <color name="progress_track">#E3F2FD</color>    <!-- Very Light Blue -->
+    <color name="progress_indicator">#2196F3</color> <!-- Blue -->
+
+    <color name="red_500">#D63031</color>
+
+    <!-- Material 3 Color System -->
+    <color name="green_500">#4CAF50</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="amber_500">#FFC107</color>
+    <color name="amber_200">#FFE082</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <!-- Additional Blue Shades -->
+    <color name="blue_50">#E3F2FD</color>           <!-- Very Light Blue -->
+    <color name="blue_100">#BBDEFB</color>          <!-- Light Blue -->
+    <color name="blue_200">#90CAF9</color>          <!-- Light Medium Blue -->
+    <color name="blue_700">#1976D2</color>          <!-- Deep Blue -->
+    <color name="blue_900">#0D47A1</color>          <!-- Very Deep Blue -->
+
+    <!-- Keep your light blue shades -->
+    <color name="lightBlue_50">#E1F5FE</color>
+    <color name="lightBlue_100">#B3E5FC</color>
+
+    <color name="correct_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+
+</resources>
