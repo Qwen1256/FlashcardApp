@@ -1,10 +1,11 @@
 # Flashcard Quiz App
 
-Flashcard Quiz App is a simple and interactive quiz application that tests user knowledge through a series of multiple-choice questions. The app features a clean UI with a smooth user experience from the welcome screen to the final results.
+Flashcard Quiz App is a simple and interactive quiz application that tests user knowledge through a series of true or false questions. The app features a clean UI with a smooth user experience from the welcome screen to the final results.
 
 ## 📱 Screens Overview
 
-### 🟢 Welcome Screen
+### 🟢 Welcome Screen![welcome_screen](https://github.com/user-attachments/assets/5982df04-1489-42d7-809b-9bcdaea89bdc)
+
 - Welcomes the user to the app
 - Offers a brief introduction or instructions
 - Includes a **Start Quiz** button to begin
