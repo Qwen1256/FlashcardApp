@@ -4,7 +4,7 @@ Flashcard Quiz App is a simple and interactive quiz application that tests user 
 
 ## 📱 Screens Overview
 
-### 🟢 Welcome Screen![welcome_screen](https://github.com/user-attachments/assets/5982df04-1489-42d7-809b-9bcdaea89bdc)
+### 🟢 Welcome Screen! <img src="https://github.com/user-attachments/assets/5982df04-1489-42d7-809b-9bcdaea89bdc" style="width:200px;"/>
 
 - Welcomes the user to the app
 - Offers a brief introduction or instructions
