@@ -45,5 +45,5 @@ Flashcard Quiz App is a simple and interactive quiz application that tests user 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quizmaster-app.git
+git clone https://github.com/Qwen1256/FlashcardApp.git
 
